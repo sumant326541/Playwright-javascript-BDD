@@ -6,7 +6,7 @@
         "description": "",
         "id": "login-action;login-with-valid-credentials",
         "keyword": "Scenario",
-        "line": 20,
+        "line": 6,
         "name": "Login with valid credentials",
         "steps": [
           {
@@ -14,46 +14,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 833213262
+              "duration": 1181334996
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 21,
+            "line": 7,
             "name": "I visit a login page",
             "match": {
-              "location": "step-definitions/login-step.js:21"
+              "location": "step-definitions/login-step.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 468839546
+              "duration": 578025489
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 22,
+            "line": 8,
             "name": "I fill the login form with valid credentials",
             "match": {
-              "location": "step-definitions/login-step.js:26"
+              "location": "step-definitions/login-step.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 280909494
+              "duration": 285397591
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 23,
+            "line": 9,
             "name": "I should see the home page",
             "match": {
-              "location": "step-definitions/login-step.js:32"
+              "location": "step-definitions/login-step.js:18"
             },
             "result": {
               "status": "passed",
-              "duration": 12399633
+              "duration": 23102112
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 116199941
+              "duration": 125823409
             }
           }
         ],
@@ -72,7 +72,7 @@
         "description": "",
         "id": "login-action;try-to-login-with-invalid-credentials",
         "keyword": "Scenario Outline",
-        "line": 33,
+        "line": 19,
         "name": "Try to login with invalid credentials",
         "steps": [
           {
@@ -80,46 +80,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 314282601
+              "duration": 315365849
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 27,
+            "line": 13,
             "name": "I visit a login page",
             "match": {
-              "location": "step-definitions/login-step.js:21"
+              "location": "step-definitions/login-step.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 448795204
+              "duration": 1458444375
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 28,
+            "line": 14,
             "name": "I fill the login form with \"fail-1\" and \"fail-1\"",
             "match": {
-              "location": "step-definitions/login-step.js:42"
+              "location": "step-definitions/login-step.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 271661047
+              "duration": 284203016
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 29,
+            "line": 15,
             "name": "I wait for 3 seconds",
             "match": {
-              "location": "step-definitions/login-step.js:36"
+              "location": "step-definitions/login-step.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 3002486893
+              "duration": 3002020810
             }
           },
           {
@@ -127,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 36532255
+              "duration": 37334421
             }
           }
         ],
@@ -138,7 +138,7 @@
         "description": "",
         "id": "login-action;try-to-login-with-invalid-credentials",
         "keyword": "Scenario Outline",
-        "line": 34,
+        "line": 20,
         "name": "Try to login with invalid credentials",
         "steps": [
           {
@@ -146,46 +146,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 324024669
+              "duration": 358362107
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 27,
+            "line": 13,
             "name": "I visit a login page",
             "match": {
-              "location": "step-definitions/login-step.js:21"
+              "location": "step-definitions/login-step.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 457014707
+              "duration": 1487990426
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 28,
+            "line": 14,
             "name": "I fill the login form with \"fail-2\" and \"fail-2\"",
             "match": {
-              "location": "step-definitions/login-step.js:42"
+              "location": "step-definitions/login-step.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 266252453
+              "duration": 283590741
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 29,
+            "line": 15,
             "name": "I wait for 3 seconds",
             "match": {
-              "location": "step-definitions/login-step.js:36"
+              "location": "step-definitions/login-step.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 3001900128
+              "duration": 3001863493
             }
           },
           {
@@ -193,7 +193,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 37048596
+              "duration": 25509824
             }
           }
         ],
@@ -204,7 +204,7 @@
         "description": "",
         "id": "login-action;try-to-login-with-invalid-credentials",
         "keyword": "Scenario Outline",
-        "line": 35,
+        "line": 21,
         "name": "Try to login with invalid credentials",
         "steps": [
           {
@@ -212,46 +212,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 326603299
+              "duration": 365007554
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 27,
+            "line": 13,
             "name": "I visit a login page",
             "match": {
-              "location": "step-definitions/login-step.js:21"
+              "location": "step-definitions/login-step.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 661620167
+              "duration": 1487961401
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 28,
+            "line": 14,
             "name": "I fill the login form with \"fail-3\" and \"fail-3\"",
             "match": {
-              "location": "step-definitions/login-step.js:42"
+              "location": "step-definitions/login-step.js:28"
             },
             "result": {
               "status": "passed",
-              "duration": 176986645
+              "duration": 205130141
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 29,
+            "line": 15,
             "name": "I wait for 3 seconds",
             "match": {
-              "location": "step-definitions/login-step.js:36"
+              "location": "step-definitions/login-step.js:22"
             },
             "result": {
               "status": "passed",
-              "duration": 3001335682
+              "duration": 3002209067
             }
           },
           {
@@ -259,7 +259,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 39560649
+              "duration": 18018454
             }
           }
         ],
@@ -268,7 +268,7 @@
       }
     ],
     "id": "login-action",
-    "line": 15,
+    "line": 1,
     "keyword": "Feature",
     "name": "Login action",
     "tags": [],
