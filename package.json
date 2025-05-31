@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed --project=chromium",
+
+    "test:debug": "npx playwright test --debug"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sumant326541/Playwright-javascrip.git"
@@ -16,7 +21,7 @@
   },
   "homepage": "https://github.com/sumant326541/Playwright-javascript#readme",
   "devDependencies": {
-    "@playwright/test": "^1.43.1",
+    "@playwright/test": "^1.52.0",
     "@types/node": "^20.12.7"
   }
 }
